@@ -1,57 +1,60 @@
+![MyPass Logo](logo.png)
+
+
 # MyPass 🔐
 
 A sleek, modern password manager built with Python and [customtkinter](https://github.com/TomSchimansky/CustomTkinter).  
 MyPass lets you generate, save, and search passwords locally.
-
-![MyPass Logo](logo.png)
-
 ---
 
-## ✨ Features
+✨ Features
 
-- Modern dark-themed interface using CustomTkinter
-- Strong password generator
-- Local password storage in JSON
+    Modern dark-themed interface using CustomTkinter
 
----
+    Strong password generator
 
-## 🧪 Requirements
+    Local password storage in JSON
 
-- `Python 3.8+`
-- `customtkinter`
-- `pillow`
-- `pyperclip`
+🧪 Requirements
+
+    Python 3.8+
+
+    customtkinter
+
+    pillow
+
+    pyperclip
 
 Install dependencies:
 
-```bash
 pip install -r requirements.txt
-```
 
-## 🚀 Usage
+🚀 Usage
 
 Run the app:
-
+```bash
 python main.py
+```
 
-## 📁 File Structure
-
+📁 File Structure
+```
 MyPass/
 ├── main.py
 ├── logo.png
 ├── themes/
 │   └── magenta.json
 ├── password_characters.py
-├── password.json         # auto-created on save
+├── password.json # auto-created on save
 └── requirements.txt
+```
 
-## 📌 Notes
+📌 Notes
 
     Passwords are saved in plain JSON format (password.json)
 
     For improved security, consider adding encryption using the cryptography library
 
-## 🧠 Future Plans
+🧠 Future Plans
 
     Master password system
 
@@ -61,4 +64,4 @@ MyPass/
 
     Light/dark mode toggle
 
-    Theme support
+    Theme switching support
