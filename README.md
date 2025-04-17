@@ -17,7 +17,7 @@ MyPass lets you generate, save, and search passwords locally.
 
 ## 🧪 Requirements
 
-- Python 3.8+
+- `Python 3.8+`
 - `customtkinter`
 - `pillow`
 - `pyperclip`
