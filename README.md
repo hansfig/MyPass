@@ -5,6 +5,8 @@
 
 A sleek, modern password manager built with Python and [customtkinter](https://github.com/TomSchimansky/CustomTkinter).  
 MyPass lets you generate, save, and search passwords locally.
+
+Unfinished, currently does not employ any encryption and solely exists for learning.
 ---
 
 ✨ Features
